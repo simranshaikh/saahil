@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+
+* { /* include CSS margins and padding within percentages */
+	box-sizing: border-box;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+	/* remove the spinner buttons on the date selectors... they are not required */
+	-webkit-appearance: none;
+}
+
+body { /* reset CSS margins */
+	margin: 0;
+	/* other properties */
+	color: #666;
+	font-family: 'Overpass', sans-serif;
+	min-width: 800px;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	/*background: url(images/elite home header.jpg)*/
+}
+
+header img { /* style the hospital logo */
+	/*width: 966px; */
+	height: 80px margin: 0 10px;
+}
+
+.wrap {
+	border: 1px dashed transparent;
+	box-shadow: 0 0 20px #888888;
+	border-radius: 5px;
+	width: 60%;
+	margin: 100px auto;
+	padding: 100px;
+	min-height: calc(100vh - 300px);
+}
+
+.discretePageUnits {
+	margin: 20px 0;
+}
+
+.buttons, .inputFields, .dropdowns {
+	font-family: 'Overpass', sans-serif;
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+}
+
+.buttons {
+	border-color: transparent;
+	background-color: #2f74e2;
+	color: white;
+	margin: 10px 10px 10px 0;
+}
+
+.inputFields {
+	border-color: lightgray;
+	background-color: white;
+	color: #666;
+	width: 100%;
+}
+
+.dropdowns {
+	width: 100%;
+	border-color: lightgray;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table tr td {
+	padding: 10px;
+}
+
+nav ul { /* style a navigation list to have no bullet points */
+	list-style: none;
+}
